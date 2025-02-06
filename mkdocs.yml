@@ -1,12 +1,12 @@
 site_name: Homepage
 
 # Project information
-site_url: https://gethomepage.dev/
+site_url: https://dash.ecampuslearning.com/
 
 # Repository
-repo_name: gethomepage/homepage
-repo_url: https://github.com/gethomepage/homepage
-edit_uri: https://github.com/gethomepage/homepage/tree/main/docs/
+repo_name: officialmofabs/homepage
+repo_url: https://github.com/officialmofabs/homepage
+edit_uri: https://github.com/officialmofabs/homepage/tree/main/docs/
 
 nav:
   - "Home":
@@ -245,11 +245,11 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/k4ruYNrudu
     - icon: fontawesome/brands/github
-      link: https://github.com/gethomepage/homepage
+      link: https://github.com/officialmofabs/homepage
     - icon: simple/opencollective
       link: https://opencollective.com/homepage
     - icon: simple/patreon
-      link: https://www.patreon.com/gethomepage
+      link: https://www.patreon.com/officialmofabs
 
 markdown_extensions:
   - pymdownx.highlight:
