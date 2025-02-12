@@ -27,7 +27,7 @@ on:
 
 env:
   # github.repository as <account>/<repo>
-  IMAGE_NAME: homepage
+  IMAGE_NAME: officialmofabs/homepage
 
 
 jobs:
