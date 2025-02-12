@@ -27,7 +27,7 @@ on:
 
 env:
   # github.repository as <account>/<repo>
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: homepage
 
 
 jobs:
@@ -49,7 +49,7 @@ jobs:
 
   build:
     name: Docker Build & Push
-    if:  github.repository == 'gethomepage/homepage'
+    if:  github.repository == 'officialmofabs/homepage'
     runs-on: self-hosted
     needs:
       - pre-commit
