@@ -26,6 +26,15 @@ concurrency:
 
 jobs:
   # Build job
+  - name: Install dependencies
+        run: npm install
+
+      - name: Build the site
+        run: npm run build
+
+      - name: Ensure out directory exists
+        run: mkdir -p out
+
   build:
     runs-on: ubuntu-latest
     steps:
